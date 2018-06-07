@@ -1,0 +1,97 @@
+.time {
+    background: lightgrey;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.time span {
+    color: dodgerblue;
+    font-size: 40px;
+}
+
+.time-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+section.prices {
+    margin-bottom: 100px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+}
+
+.event-container img {
+    width: 500px;
+    height: 200px;
+    padding: 2px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.event-info {
+    width: 500px;
+    margin: 20px;
+}
+
+.event-info h5 {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    font-weight: 900;
+}
+
+.event-info h6 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.event-info p {
+    margin-top: 20px;
+}
+
+section.about {
+    margin-bottom: 70px;
+}
+
+@media (max-width: 400px) {
+	.carousel-inner h2 {
+		font-size: 20px;
+    }
+    .quote {
+        font-size: 12px;
+    }
+    .img-container img.large {
+        margin-bottom: 20px;
+        width: 350px;
+    }
+    .tc {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 350px;
+        margin-left: 100px;
+    }
+    .event-container {
+        flex-direction: column;
+    }
+    .event-info {
+        width: 300px;
+    }
+    .event-info img {
+        width: 300px;
+    }
+    .time-container .time {
+        font-size: 10px;
+    }
+    .time span {
+        font-size: 15px;
+    }
+}
